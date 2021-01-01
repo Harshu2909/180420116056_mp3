@@ -1,0 +1,70 @@
+body {
+    background: url("../180420116027_mp3/images/watch.jpg");
+    background-color: #ec6dac;
+    color: #d314ec;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Montserrat", serif;
+    font-weight: 200;
+  
+    text-align: center;
+    text-shadow: 3px 5px rgb(0, 235, 252), 0 0 50px #4cf275;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 18, 18);
+    align-items: center;
+    box-shadow: 0 0 15px rgb(255, 254, 254);
+
+    height: 270px;
+    width: 270px;
+  
+    border: 8px solid;
+    border-radius: 50%;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
